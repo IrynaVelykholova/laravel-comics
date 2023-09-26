@@ -1,5 +1,6 @@
 @use "./partials/navbar";
 @use "./partials/footer";
+@use "./partials/_variables.scss" as *;
 
 @import "bootstrap";
 @import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -29,4 +30,4 @@
     .button-load {
         margin: auto;
     }
-  }
+}

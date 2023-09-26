@@ -49,12 +49,10 @@
             @foreach ($footerLinks as $link)
             <li class="mt-5">
                 <a href="#" class="nav-link text-white">
-                    <img src="`./images/{{ $link["img"] }}`" class="blueImg" alt="" />
+                    <img src="{{ $link["img"] }}" class="blueImg" alt="" />
                     {{ $link["name"] }}
                 </a>
             </li>
             @endforeach
     </section>
-
-
 </footer>
