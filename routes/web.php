@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/1', function () {
+Route::get('/characters', function () {
     return view('characters');
-});
+})->name('characters');
